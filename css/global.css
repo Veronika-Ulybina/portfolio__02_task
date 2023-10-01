@@ -1,0 +1,66 @@
+html {
+	position: relative;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+}
+
+.container {
+	max-width: 1240px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+img, svg {
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+button {
+	padding: 0;
+	border: 0;
+	cursor: pointer;
+}

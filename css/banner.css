@@ -1,0 +1,26 @@
+.banner {
+	padding-bottom: 44.5px;
+}
+
+.banner__block {
+	height: 780px;
+	background-image: url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-weight: 900;
+	text-align: center;
+	border-radius: 0 151px 0 151px;
+	padding-top: 310px;
+}
+
+.page__title {
+	font-size: 100px;
+	line-height: 100%;
+	color: #ffb822;
+	margin-bottom: 36px;
+}
+
+.page__subtitle {
+	font-size: 40px;
+	line-height: 100%;
+}

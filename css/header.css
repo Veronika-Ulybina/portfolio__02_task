@@ -1,0 +1,62 @@
+.header {
+	padding: 60px 0 80px;
+}
+
+.header__link {
+	display: inline-block;
+	vertical-align: middle;
+	height: 55px;
+	margin-right: 112px;
+}
+
+.header__navigation {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 100%;
+	margin-right: 114px;
+}
+
+.header-list__item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-list__item:not(:last-child) {
+	margin-right: 36px;
+}
+
+.header-list__link {
+	display: inline-block;
+	transition: color .3s ease-in-out;
+}
+
+.header-list__link:hover {
+	color: #ffb822;
+}
+
+.header__btn {
+	vertical-align: middle;
+	width: 280px;
+	height: 55px;
+	font-weight: 900;
+	text-transform: inherit;
+	background-color: transparent;
+	color: #ccc;
+	border: 3px solid #9965e3;
+	border-radius: 10px;
+}
+
+.header__search-text {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 100%;
+	margin-right: 131px;
+}
+
+.header__search-icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 32px;
+	height: 32px;
+	
+}
